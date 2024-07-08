@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'app_brands',
     'app_subcategory',
     'app_product_store',
+    'app_cart',
+    'app_love',
+    
+    
     
     
 ]

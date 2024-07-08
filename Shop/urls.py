@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name="home"),
     path("store/",include("app_product_store.urls")),
+    path('cart/',include("app_cart.urls")),
+    path('wishlist/',include("app_love.urls")),
 ]
 
 urlpatterns+=staticfiles_urlpatterns()
